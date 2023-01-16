@@ -1,0 +1,59 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+    box-sizing: inherit;
+}
+
+.conteiner__header {
+    margin-left: 40%;
+    color: rgb(87, 85, 85);
+}
+
+.form__paragraph,
+.form__label {
+    color: rgb(52, 50, 50);
+}
+
+.form__span {
+    color: black;
+}
+
+.form__border {
+    margin: auto;
+    width: 40%;
+    border: dashed;
+    color: rgb(45, 95, 45);
+    border-radius: 10%;
+    background-color: rgb(140, 187, 228);
+}
+
+.form__input:invalid {
+    background-color: rgb(204, 142, 142);
+}
+
+.form__button {
+    background-color: rgba(20, 19, 19, 0.295);
+    color: black;
+}
+
+.form__button:hover {
+    background-color: rgba(36, 35, 35, 0.614);
+}
+
+.form__label {
+    margin: auto;
+
+    padding: 20px;
+
+}
+
+
+
+.form__label--rightCurrency {
+    margin-left: 12px;
+
+}
