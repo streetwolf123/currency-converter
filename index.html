@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>currency converter</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/script.js"></script>
+</head>
+
+<body>
+    <div class="conteiner">
+        <h1 class="conteiner__header">Przelicznik Walut</h1>
+        <form class="form-js" method="GET">
+            <fieldset class="form__border">
+                <p>
+                    <label for="quantity" class="form__label form__label--left">Ilość <span class="form__span form__span--input"></span>:
+                        <input type="number" name="quantity" class="form__input form__input--left-js" required placeholder="Wartość nominału" value="0" >
+                    </label>
+
+        
+                <p>
+                    <label for="currency" class="form__label form__label--left">Waluta:
+                        <select name="currency" id="currency__left" class="form__select form__select--left-js">
+                            <option value="pln" class="form__currency form__currency--PLN">Złotówka</option>
+                            <option value="eur" class="form__currency form__currency--EUR">Euro</option>
+                            <option value="usd" class="form__currency form__currency--USD">Dolar</option>
+                            <option value="gbp" class="form__currency form__currency--GBP">Funt brytyjski</option>
+                            <option value="egp" class="form__currency form__currency--EGP">Funt egipski</option>
+                            <option value="hkd" class="form__currency form__currency--HKD">Dolor Hongkongu</option>
+                        </select>
+                    </label>
+
+                    <label for="currency" class="form__label form__label--rightCurrency">Waluta:
+                        <select name="currency" id="currency__right" class="form__select form__select--right-js">
+                            <option value="pln">Złotówka</option>
+                            <option value="eur">Euro</option>
+                            <option value="usd">Dolar</option>
+                            <option value="gbp">Funt brytyjski</option>
+                            <option value="egp">Funt egipski</option>
+                            <option value="hkd">Dolor Hongkongu</option>
+                        </select>
+                    </label>
+                </p>
+                <p class="form__paragraph"> Wynik: 
+                    <span class="form__span form__span--result-js"></span>
+                    <span class="form__span form__span--currencyResult"></span>
+                </p>
+                <button class="form__button form__button-js">Oblicz</button>
+            </fieldset>
+        </form>
+    </div>
+</body>
+
+</html>
