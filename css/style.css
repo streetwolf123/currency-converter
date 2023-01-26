@@ -29,6 +29,8 @@ html {
     color: rgb(45, 95, 45);
     border-radius: 10%;
     background-color: rgb(140, 187, 228);
+    background-image: url("../image/money.jpg");
+    background-position: top;
 }
 
 .form__input:invalid {
