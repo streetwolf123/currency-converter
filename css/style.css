@@ -7,6 +7,10 @@ html {
 ::before {
     box-sizing: inherit;
 }
+body {
+    background-image: url("../image/money.jpg");
+    background-position: top;
+}
 
 .conteiner__header {
     margin-left: 40%;
@@ -28,9 +32,7 @@ html {
     border: dashed;
     color: rgb(45, 95, 45);
     border-radius: 10%;
-    background-color: rgb(140, 187, 228);
-    background-image: url("../image/money.jpg");
-    background-position: top;
+    background-color: rgb(107 158 61);
 }
 
 .form__input:invalid {
