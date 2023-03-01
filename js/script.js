@@ -22,7 +22,7 @@
             hkd: 8,
             egp: 1.23
         };
-        
+
         const finalCount = (values[firstInputValue.value] / values[secondInputValue.value]) * inputLeft;
         result.innerHTML = finalCount.toFixed(2);
 
@@ -37,7 +37,7 @@
 
     buttonFunction()
 
-}
+};
 
 
 
