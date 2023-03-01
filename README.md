@@ -11,7 +11,10 @@ The **calculate** button has a pseudo-class *hover* set which exposes the click 
 
 The appearance has been kept simple, a *border* has been added which exposed the calculator itself a bit and it took on a slightly more decent look.
 
-## link  
+## Currency-converter image web  
 
 ![currency-converter image](https://github.com/streetwolf123/currency-converter/blob/master/image/Currency-converter.png?raw=true)
+
+## Link 
+[Currency-converter - link](https://streetwolf123.github.io/currency-converter/)
 
